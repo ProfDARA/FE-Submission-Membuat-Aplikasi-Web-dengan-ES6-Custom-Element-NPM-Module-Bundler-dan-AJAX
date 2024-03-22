@@ -1,0 +1,43 @@
+/*tombol*/
+.search-control,
+
+.search-btn{
+    width: 80%;
+}
+
+.search-control{
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    font-family: inherit;
+    outline: 0;
+    border: 1px solid ;
+    color: rgb(100, 70, 235);
+    border-top-left-radius: 0.7rem;
+    border-bottom-left-radius: 0.7rem;
+
+}
+.search-control::placeholder{
+    color: #020202;
+
+}
+.search-btn{
+    width: 100px;
+    height: 60px;
+    border: none;
+    font-size: 1.5rem;
+    color: #fff;
+    background: rgb(83, 58, 192);
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -o-transition: all 0.5 linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    border-top-right-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+
+}
+.search-btn:hover{
+    background: #504eee;
+}
+
+
